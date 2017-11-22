@@ -24,9 +24,7 @@ public class Animal {
 		this.weight = weight;
 		this.skinColor = skinColor + "";
 	}
-	
-	
-	
+
 	public String getType() {
 		return type;
 	}
@@ -56,7 +54,6 @@ public class Animal {
 	public Object clone() {
 		return new Animal(this);
 	}
-
 
 	@Override
 	public String toString() {
